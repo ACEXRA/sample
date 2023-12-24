@@ -1,0 +1,34 @@
+$color: #03001c;
+$color2: #301e67;
+$color3: #5b8fb9;
+$color4: #b6eada;
+$textColor: #f6f1f1;
+
+$sm: 1.8rem;
+$md: 2.4rem;
+$xl: 3rem;
+$xxl: 3.6rem;
+.app {
+  background-color: $color;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: 15% 1fr;
+  color: $textColor;
+}
+
+.sidebar {
+  background-color: $color2;
+}
+.title {
+  font-size: $xl;
+}
+.items {
+  background-color: $color3;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+/*variable*/
